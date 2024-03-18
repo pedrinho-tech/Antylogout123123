@@ -1,0 +1,11 @@
+name: MagicAntylogout
+version: '1.0'
+main: org.pedrinho.magicantylogout.Main
+author: MagicSolutions-Team
+website: https://magicsolutions.pl/
+api-version: '1.16'
+
+commands:
+  antylogout:
+    aliases: [magicantylogout, mal, al]
+    description: Wyswietla GUI zarzadzania pluginem

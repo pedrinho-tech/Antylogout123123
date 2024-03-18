@@ -1,0 +1,46 @@
+
+ANTYLOGOUT:
+  DURATION: 30 #czas w sekundach
+
+ACTIONBAR:
+  ENABLED: true
+  DURING-COMBAT: "&cJestes podczas walki jeszcze przez &4%time%&c!"
+  END-COMBAT: "&aJuż nie jesteś podczas walki!"
+
+MESSAGE:
+  ENABLED: true
+  START-COMBAT: "&cJesteś podczas walki z &4%player%&c. Nie logaj!"
+  END-COMBAT: "&aJuż nie jesteś podczas walki!"
+
+BROADCAST:
+  ENABLED: true
+  LOGOUT: "&cGracz &4%player% &cwylogował się podczas walki!"
+
+COMMANDS:
+  MESSAGE: "&cTa komenda jest zablokowana podczas walki!"
+  WHITELIST:
+    - "/helpop"
+    - "/pomoc"
+
+BLOCKS:
+  MESSAGE: "&cNie możesz tego zrobić podczas walki!"
+  BLACKLIST:
+    - "CRAFTING_TABLE"
+    - "ENDER_CHEST"
+    - "FURNACE"
+    - "CHEST"
+    - "TRAPPED_CHEST"
+
+REGIONS:
+  BLOCKED-REGIONS:
+    - "spawn"
+
+BOSSBAR:
+  ENABLED: true
+  PROGRESS-SOLID: true
+  STYLE: "SEGMENTED_6"
+  COLOR: "RED"
+  DURING-COMBAT: "&cJesteś podczas walki jeszcze przez &4%time%"
+
+ANTYLOGOUT-COMMAND:
+  NOPERMISSION: "&cNie posiadasz permisji, aby to zrobić!"
